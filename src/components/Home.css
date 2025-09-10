@@ -1,0 +1,41 @@
+.Hero-signup-btn{
+  background-color: #A41045;
+}
+
+.Home-img{
+  height:500px;
+  max-width: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.Home-img:hover {
+  transform: scale(1.05); /* Slightly scale up the image */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+.Home-Heading{
+  color: #9FA0A1;
+  font-size: 70px; /* Adjust the size as needed */
+  font-weight:600;
+}
+
+.Home-description{
+
+  color: #7D7E80;
+}
+
+
+.Home-Heading {
+  transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+
+.Home-Heading:hover {
+  transform: scale(1.05); /* Slightly scale up the text */
+}
+
+
+
+

@@ -1,0 +1,83 @@
+.result-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  /* background-color: #1A1C20;  */
+  background-color:white; /* Dark background for the container */
+  border-radius: 8px; /* Rounded corners */
+  color:black; /* White text color for contrast */
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: black; /* Light grey for headings */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #444; /* Dark border for input */
+  border-radius: 4px; /* Slightly rounded corners */
+  background-color: #2A2C30; /* Dark input background */
+  color: #FFFFFF; /* White text for input */
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green button color */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.result-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.method-details {
+  margin-top: 30px;
+  font-size: 16px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.chart-container {
+  margin-top: 30px;
+}
+
+.pie-charts-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Align pie charts in 2 columns */
+}
+
+.pie-charts-container div {
+  margin: 20px;
+  text-align: center;
+  width: 30%; /* Width for each pie chart */
+  background-color: #2A2C30; /* Dark background for pie charts */
+  border-radius: 8px; /* Rounded corners for pie chart containers */
+  padding: 10px; /* Padding around pie charts */
+  color: #FFFFFF; /* White text for pie chart titles */
+}

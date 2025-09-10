@@ -1,0 +1,60 @@
+.navbar-button{
+  color:white !important;
+  margin-right:20px;
+}
+
+.web-logo{
+  color: white !important;
+  margin-left: 30px;
+}
+
+.icon-image{
+  height:50px;
+  width:140px;
+}
+
+
+
+
+.navbar-container{
+  background-color: #121417;
+  margin-left: 30px;
+  margin-right:30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  border: 1px solid #313235;
+
+  position: sticky;
+  top: 20px;
+  z-index: 1000; 
+
+
+  
+ 
+  
+  
+}
+
+.nav-link {
+  display: inline-block; /* Make the links behave like buttons */
+  padding: 10px 20px; /* Add padding for button-like appearance */
+  margin: 5px; /* Space between buttons */
+  border: 2px solid transparent; /* Default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: transparent; /* Transparent background initially */
+  color: #A41045; /* Text color */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Transition effects */
+}
+
+
+
+/* Hover effect */
+.nav-link:hover {
+  border-color: #A41045; /* Change border color on hover */
+  background-color: rgba(164, 16, 69, 0.1); /* Light background color on hover */
+  color: #A41045; /* Change text color on hover */
+}
