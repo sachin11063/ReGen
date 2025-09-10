@@ -1,0 +1,26 @@
+.about-content{
+  color:white;
+  opacity: 0.5;
+  max-width: 100%;
+}
+
+.content-container{
+  /* background-color: blue; */
+}
+
+.about-quoat{
+  color:antiquewhite;
+  opacity: 0.8;
+}
+
+.about-image{
+  height:200px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.aman-bibhash{
+  height:200px;
+  max-width: 100%;
+  border-radius: 50%;
+}

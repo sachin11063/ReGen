@@ -1,0 +1,14 @@
+.loginButton{
+  margin-left: 50px;
+}
+
+.signText{
+  color: black;
+}
+
+.signPage{
+  /* background-color:white; */
+  width: 600px;
+  border-radius: 25px;
+  background-image:url('./src/assets/backGround.jpg');
+}
