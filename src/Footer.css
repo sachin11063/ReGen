@@ -1,0 +1,165 @@
+/* === Cinematic Green-Dark Theme Footer === */
+
+.footer-container {
+  background: linear-gradient(145deg, #0a0f0c, #131913);
+  color: #dfffe0;
+  border-radius: 25px 25px 0 0;
+  box-shadow: 0 -5px 20px rgba(0, 255, 100, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animated gradient glow effect */
+.footer-container::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    from 0deg,
+    rgba(0, 255, 100, 0.05),
+    rgba(164, 16, 69, 0.05),
+    rgba(0, 255, 100, 0.05)
+  );
+  animation: spin 25s linear infinite;
+  z-index: 0;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Keep content above the animated layer */
+.footer-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Text and section styling */
+.footer-item h4 {
+  font-weight: 600;
+  color: #7cff9f;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-item p {
+  color: #baffc1;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-item p:hover {
+  color: #00ff88;
+  transform: translateX(4px);
+}
+
+/* === Social Icons Row Styling === */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px; /* space between icons */
+  flex-wrap: wrap; /* makes it wrap on small screens */
+  margin-top: 10px;
+}
+
+.social-icon a {
+  color: #aaffb2;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 6px; /* spacing between icon and text */
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: rgba(20, 30, 20, 0.5);
+  border: 1px solid rgba(0, 255, 100, 0.15);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 100, 0.05);
+}
+
+/* Hover animation */
+.social-icon a:hover {
+  background: linear-gradient(90deg, #ff0000, #f86b33);
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(255, 68, 68, 0.4);
+}
+
+/* Icon size tweak */
+.social-icon svg {
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .social-icon {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .social-icon a {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}
+
+/* Logo Image */
+.icon-image-footer {
+  width: 120px;
+  height: 40px;
+  border-radius: 1px;
+  border: 1px solid rgba(0, 255, 100, 0.25);
+  box-shadow: 0 0 10px rgba(0, 255, 100, 0.15);
+  transition: all 0.3s ease;
+}
+
+.icon-image-footer:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 120, 0.3);
+}
+
+/* Divider Line */
+.Footer-Horizontal-line hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0, 255, 100, 0.2), rgba(255, 255, 255, 0.05));
+  margin: 20px 0;
+}
+
+/* Bottom Text */
+.footer-item p:last-child {
+  color: #9affb0;
+}
+
+.footer-item p:last-child:hover {
+  color: #ff5555;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .footer-item {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .social-icon {
+    text-align: center;
+  }
+
+  .icon-image-footer {
+    width: 60px;
+    height: 60px;
+  }
+}

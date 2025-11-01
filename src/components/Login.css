@@ -1,0 +1,150 @@
+/* === Bright Cinematic Green-Dark Theme for Login Page === */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Base styling */
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #0c1410 0%, #0a0d0a 100%);
+  margin: 0;
+  padding: 0;
+  color: #eafcec;
+}
+
+/* Container */
+.loginPage {
+  background: rgba(25, 35, 28, 0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 120, 0.15);
+  padding: 3rem 2.5rem;
+  max-width: 420px;
+  margin: 6rem auto;
+  transition: all 0.3s ease-in-out;
+  color: #f2fff2;
+}
+
+.loginPage:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 40px rgba(0, 255, 100, 0.25);
+}
+
+/* Title */
+.loginText {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #a8ffb0;
+  text-shadow: 0 0 12px rgba(0, 255, 120, 0.6);
+}
+
+/* Labels */
+label.loginLabel {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #b4eeb7;
+}
+
+/* Input fields */
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 120, 0.3);
+  color: #eaffea;
+  padding: 12px 14px;
+  border-radius: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.form-control::placeholder {
+  color: #c5e8c8;
+  opacity: 0.8;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #00ff88;
+  box-shadow: 0 0 12px rgba(0, 255, 150, 0.5);
+  outline: none;
+}
+
+/* Primary Login button */
+.btn-primary {
+  background: linear-gradient(90deg, #00e676, #00ff88);
+  border: none;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 12px 0;
+  color: #0d0d0d;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #00ff88, #33ffb3);
+  box-shadow: 0 0 18px rgba(0, 255, 130, 0.6);
+  transform: scale(1.03);
+}
+
+/* Secondary (Sign Up) button */
+.signUpButton {
+  background: transparent;
+  border: 2px solid #00ff88;
+  color: #00ff88;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+}
+
+.signUpButton:hover {
+  background: linear-gradient(90deg, #00ff88, #1effa0);
+  color: #000;
+  box-shadow: 0 0 14px rgba(0, 255, 130, 0.5);
+  transform: scale(1.02);
+}
+
+/* Helper text section */
+.helper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #b6eebf;
+}
+
+.helper-section a {
+  color: #00ff88;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.helper-section a:hover {
+  text-shadow: 0 0 8px rgba(0, 255, 130, 0.6);
+}
+
+/* Form spacing */
+.form-group {
+  margin-bottom: 18px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .loginPage {
+    width: 85%;
+    padding: 2rem 1.5rem;
+  }
+
+  .loginText {
+    font-size: 1.5rem;
+  }
+}

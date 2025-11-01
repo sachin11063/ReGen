@@ -1,0 +1,122 @@
+/* === Refined Modern Green-Tech Theme === */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  background: radial-gradient(circle at top left, #0c1713, #050a08 70%);
+  color: #d9f9e8;
+  border-radius: 18px;
+  padding: 60px 40px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  box-shadow: 0 0 30px rgba(0, 255, 100, 0.08);
+  position: relative;
+}
+
+/* HEADER / QUOTE SECTION */
+.about-quoat h3 {
+  font-size: 2rem;
+  background: linear-gradient(90deg, #90ffb2, #1aff8c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* MAIN CONTENT AREA */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 255, 100, 0.05);
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0 0 25px rgba(0, 255, 100, 0.05);
+}
+
+.about-content {
+  flex: 1 1 45%;
+  min-width: 320px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #d2f7e0;
+  text-align: justify;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px rgba(0, 255, 100, 0.15);
+}
+
+/* TEAM SECTION */
+.row.text-center.mb-5 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 240px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid rgba(0, 255, 100, 0.2);
+  box-shadow: 0 0 25px rgba(0, 255, 100, 0.08);
+  transition: all 0.4s ease;
+  filter: brightness(0.95);
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 255, 150, 0.25);
+  filter: brightness(1);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+  .about-quoat h3 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+
+  .content-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 25px;
+  }
+
+  .about-image {
+    max-width: 200px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 25px;
+  }
+
+  .about-quoat h3 {
+    font-size: 1.4rem;
+  }
+
+  .about-image {
+    max-width: 180px;
+    height: 220px;
+  }
+}

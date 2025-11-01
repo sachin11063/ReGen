@@ -1,0 +1,83 @@
+/* Home.css */
+
+/* Main Container */
+.container {
+  font-family: "Poppins", sans-serif;
+  color: #e0e0e0;
+  background: linear-gradient(135deg, #101820, #1a1f27);
+  border-radius: 12px;
+  padding: 60px 40px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Headline */
+.Home-Heading {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #73ff00, #00ff2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+/* Description Text */
+.Home-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #cfd8dc;
+  text-align: justify;
+}
+
+/* Button Style */
+.btn-outline-danger {
+  border: 2px solid #00ff15;
+  color: #22ff00;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.btn-outline-danger:hover {
+  background: linear-gradient(90deg, #4dff00, #66ff00);
+  color: #201210;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
+}
+
+/* Hero Image */
+.Home-img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Home-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(26, 255, 0, 0.35);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .Home-Heading {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .Home-description {
+    text-align: center;
+  }
+
+  .btn-outline-danger {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .Home-img {
+    margin-top: 30px;
+  }
+}
