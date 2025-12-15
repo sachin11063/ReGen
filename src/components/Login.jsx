@@ -22,10 +22,10 @@ const Login = () => {
     <div className="container loginpage mb-5 mt-5 p-5">
       <div className="row">
         <div className="col-6 offset-3">
-          <h2 className="text-center loginText">Login</h2>
+          <h1 className="loginText">Login</h1>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="username " className="loginText">Username</label>
+              <label htmlFor="username " className="loginText2">Username</label>
               <input
                 type="text"
                 id="username"
@@ -38,7 +38,7 @@ const Login = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="password" className="loginText">Password</label>
+              <label htmlFor="password" className="loginText2">Password</label>
               <input
                 type="password"
                 id="password"

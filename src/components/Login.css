@@ -32,12 +32,21 @@ body {
 /* Title */
 .loginText {
   text-align: center;
-  font-weight: 600;
-  font-size: 1.8rem;
+  font-weight: 600px;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #00fa19;
+  text-shadow: 0 0 5px rgba(0, 255, 119, 0.6);
+}
+.loginText2 {
+  text-align: left;
+  font-weight: 6px;
+  font-size: 1.2rem;
   letter-spacing: 1px;
   margin-bottom: 30px;
   color: #a8ffb0;
-  text-shadow: 0 0 12px rgba(0, 255, 120, 0.6);
+  text-shadow: 0 0 2px rgba(0, 255, 120, 0.6);
 }
 
 /* Labels */

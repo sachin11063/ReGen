@@ -51,7 +51,7 @@ const Footer=()=>
             <a href="#">
               <FontAwesomeIcon icon={faFacebook} /> Facebook
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/sachinkumar72/">
               <FontAwesomeIcon icon={faLinkedinIn} /> LinkedIn
             </a>
           </div>

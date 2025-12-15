@@ -14,7 +14,7 @@ const Home = () => {
             emissions.
           </p>
           <button type="button" class="btn  btn-outline-danger mt-3 ">
-            Sign up
+            <a href="/login" class="btn-outline-danger">Login</a>
           </button>
         </div>
 

@@ -31,18 +31,18 @@
 
 /* Button Style */
 .btn-outline-danger {
-  border: 2px solid #00ff15;
-  color: #22ff00;
+  background: linear-gradient(90deg, #00ff7f, #00d0ff);
+  color: #0b0f0c;
   font-weight: 600;
-  letter-spacing: 0.5px;
-  border-radius: 8px;
-  padding: 8px 20px;
+  padding: 8px 18px;
+  border-radius: 10px;
+  text-decoration: none;
   transition: all 0.3s ease;
-  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 255, 150, 0.3);
 }
 
 .btn-outline-danger:hover {
-  background: linear-gradient(90deg, #4dff00, #66ff00);
+  background: linear-gradient(90deg, #ff0000, #ff8800);
   color: #201210;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
