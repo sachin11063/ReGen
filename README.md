@@ -2,9 +2,6 @@
 
 ReGen is a full-stack web application built with a modern frontend and a scalable backend. The project demonstrates real-world full-stack development practices, clean architecture, and API-driven communication between frontend and backend systems.
 
-🌐 Live Demo  
-https://re-gen-iota.vercel.app
-
 ---
 
 ## 🚀 Project Overview
